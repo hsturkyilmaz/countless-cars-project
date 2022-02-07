@@ -15,7 +15,7 @@ const LoginForm = (props) => {
   });
 
   return (
-    <div className="container" className={styles['login-wrapper']}>
+    <div className={`container ${styles['login-wrapper']}`}>
       <h3 className="mb-5">👤 Login</h3>
       <Formik
         initialValues={{
